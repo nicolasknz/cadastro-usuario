@@ -7,16 +7,12 @@ import {
   ThemeProvider,
 } from "@material-ui/core/styles";
 import {
-  Input,
   Stepper,
   Step,
   StepLabel,
   StepContent,
   Button,
-  Paper,
-  TextField,
 } from "@material-ui/core";
-import { Controller, useForm } from "react-hook-form";
 import { ReactNode } from "react";
 import { useActiveStep } from "../context/ActiveStepProvider";
 

@@ -1,12 +1,6 @@
-import {
-  Button,
-  createStyles,
-  makeStyles,
-  TextField,
-  Theme,
-} from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import React, { useEffect } from "react";
-import { Controller, SubmitHandler, useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 import { useActiveStep } from "../context/ActiveStepProvider";
 import {
   contextDefaultValues,

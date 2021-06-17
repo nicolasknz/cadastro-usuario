@@ -50,7 +50,6 @@ const UserForm = ({ stepsLength }: UserFormProps) => {
   const {
     control,
     handleSubmit,
-    watch,
     getValues,
     register,
     formState: { errors },
